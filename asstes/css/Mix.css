@@ -4,8 +4,8 @@ body {
     line-height: 1.5;
     }
 
-header {
-    padding: 15px 0px;
+header { /*All regarding Developers name and nav bar*/
+    padding: 15px 0px; 
     display: flex;
     justify-content: space-between;  /*space between elemte h1 and nav*/
     flex-wrap: wrap;
@@ -34,7 +34,7 @@ header a {     /*Style to "links" in nav bar that lead to same specific sections
     background-color:  #92ccce;
     }
 /* STARTING COOL SUBTITLE SECTION*/
-.portada {
+.portada { /*ImageBackground and styles*/
     display: flex;
     background-blend-mode: soft-light;
     background:#445877;
@@ -46,7 +46,7 @@ header a {     /*Style to "links" in nav bar that lead to same specific sections
     justify-content: end;
     }
 
-h4 {
+h4 { /*Topic "Cool subtitle on class="portada"*/
     margin-right: 40px;
     margin-top: 150px;
     color: #31343d;
@@ -55,7 +55,7 @@ h4 {
     background-color: #92ccce;
     }
 
-h2 {min-width:13% ;
+h2 {min-width:13% ;  /*Titles of the sections (about me , work and contact me) */
     font-size: 3.5rem;
     color:#445877;
     margin: 10px 20px;
@@ -63,7 +63,7 @@ h2 {min-width:13% ;
     
 }
 
-.Pabout {
+.Pabout {  /*Text of about me*/
     padding-left: 2rem;
     font-size: 1rem;
     color: #445877;
@@ -71,7 +71,7 @@ h2 {min-width:13% ;
     border-left: solid #445877 .3rem;
     }
     
-.content {
+.content { 
         display: flex;
     align-items: center;
     }
@@ -83,7 +83,7 @@ h2 {min-width:13% ;
     flex-wrap: wrap;
    }
 
-.wlinks{
+.wlinks{ /*style of the section that contains anchors all as one element*/
    
     width: 70%;
     display: flex;
@@ -94,7 +94,7 @@ h2 {min-width:13% ;
     padding-left: 40px;
     
 }
-.wlinks>a{
+.wlinks>a{  /*Styles of the text inside each anchor .Couldn´t make it work correctly background and positions*/
     color: #445877;
     display: block;
     text-decoration: none;
@@ -105,10 +105,12 @@ h2 {min-width:13% ;
 }
 
 
-a>div {
+a>div { /*anchor´s "subtitles"*/
     font-size: 1rem;
 }
 
+
+/*Background images of each a element*/
 .Surf {background-image:url("../images/02-portfolio-4.jpg"); 
     background-position: center;
     min-width: 100%;
@@ -176,7 +178,7 @@ a>div {
 
 
     
-    
+/*Display responsability 980px*/ 
 @media screen and (max-width: 980px) {
     header { 
       
@@ -241,11 +243,11 @@ a>div {
     }  
 
     }
-    
+  /*Display responsability 980px*/   
     @media screen and (max-width: 768px) {
         h2 {font-size: 3rem;}
     
-        .Info{  /*Borrando esto se fixea la linea debajo contact pero no me quedan borders*/
+        .Info{ 
             display:flex;
             flex-direction: column;
             border-top: #445877 solid .3rem;
